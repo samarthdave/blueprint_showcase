@@ -16,6 +16,7 @@ import {
 import './App.css';
 import Showcase from './components/Showcase';
 import BootstrapShowcase from './components/BootstrapShowcase';
+import NotFound from './components/404';
 
 export default class App extends React.Component {
   render() {
@@ -25,6 +26,7 @@ export default class App extends React.Component {
         <Route exact path="/" component={Main} />
         <Route path="/showcase/bootstrap" component={BootstrapShowcase} />
         <Route path="/showcase" component={Showcase} />
+        <Route component={NotFound} />
       </Switch>
     ];
   }
@@ -36,7 +38,7 @@ function Main() {
 
 function Navigation() {
   return (
-    <Navbar>
+    <Navbar className='pt-dark'>
       <NavbarGroup align={Alignment.LEFT}>
         <NavbarHeading>Blueprint Showcase</NavbarHeading>
         <NavbarDivider />

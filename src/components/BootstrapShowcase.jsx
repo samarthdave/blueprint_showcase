@@ -49,14 +49,6 @@ export default class BoostrapShowcase extends React.Component {
   }
 }
 
-function Exaample() {
-  return (
-    <div className="container-item">
-      <h2>Navbars</h2>
-    </div>
-  );
-}
-
 function ProgressBarsShowcase() {
   return (
     <div className="progress-bar-showcase container-item">
@@ -185,7 +177,7 @@ function ThumbnailShowcase() {
     <div className="thumbnail-showcase container-item">
       <h2>Thumbnails (Cards in @blueprint/core)</h2>
       <Card interactive={true} elevation={Elevation.TWO}>
-        <img src="http://via.placeholder.com/200x200" alt="200x200 Image" />
+        <img src="http://via.placeholder.com/200x200" alt='Example 200x200' />
       </Card>
     </div>
   );
