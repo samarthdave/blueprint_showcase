@@ -12,12 +12,15 @@ body {
   padding: 1em;
 }
 
+.container-item {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 .jumbotron {
   background: #ddd;
   padding: 4em 3em;
-  max-width: 80%;
   text-align: left;
-  margin: 0 auto;
   border-radius: 5px;
 }
 
@@ -27,4 +30,36 @@ h1.header {
 
 .jumbotron p {
   font-size: 1.3em;
+}
+
+/* button showcase */
+.button-showcase button {
+  margin: 2px;
+}
+
+/* alerts showcase */
+.alerts-showcase .pt-callout {
+  max-width: 70%;
+}
+
+/* thumbnail showcase */
+.thumbnail-showcase {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-direction: normal;
+
+}
+.thumbnail-showcase .pt-card {
+  max-width: 400px;
+}
+
+/* labels showcase */
+.labels-showcase .pt-tag {
+  margin: 2px;
+}
+
+/* progress bar showcase  */
+.progress-bar-showcase .pt-callout {
+  max-width: 70%;
 }
