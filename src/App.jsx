@@ -23,8 +23,8 @@ export default class App extends React.Component {
       <Navigation />,
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route path="/showcase" component={Showcase} />
         <Route path="/showcase/bootstrap" component={BootstrapShowcase} />
+        <Route path="/showcase" component={Showcase} />
       </Switch>
     ];
   }
