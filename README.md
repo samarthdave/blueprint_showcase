@@ -4,11 +4,11 @@ A simple React project built with the UI library [Blueprint](https://github.com/
 
 ### What is Blueprint?
 
-```
+
 "Blueprint is a React-based UI toolkit for the web.
 
 It is optimized for building complex, data-dense web interfaces for desktop applications. If you rely heavily on mobile interactions and are looking for a mobile-first UI toolkit, this may not be for you."
-```
+
 
 ### How to run
 ```
