@@ -40,7 +40,7 @@ function Navigation() {
   return (
     <Navbar className='pt-dark'>
       <NavbarGroup align={Alignment.LEFT}>
-        <NavbarHeading>Blueprint Showcase</NavbarHeading>
+        <NavbarHeading>Blueprint Showcase (unofficial)</NavbarHeading>
         <NavbarDivider />
         <Link to='/showcase/bootstrap'><Button className="pt-minimal" icon="bold" text="Bootstrap Layout" /></Link>
         <Link to='/showcase/'><Button className="pt-minimal" icon="home" text="Sign-in Page" /></Link>
