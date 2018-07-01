@@ -47,6 +47,11 @@ h1.header {
   max-width: 70%;
 }
 
+/* navbar paddings */
+.pt-navbar {
+  padding: 0 100px;
+}
+
 /* thumbnail showcase */
 .thumbnail-showcase {
   display: flex;

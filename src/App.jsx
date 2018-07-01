@@ -45,6 +45,9 @@ function Navigation() {
         <Link to='/showcase/bootstrap'><Button className="pt-minimal" icon="bold" text="Bootstrap Layout" /></Link>
         <Link to='/showcase/'><Button className="pt-minimal" icon="home" text="Sign-in Page" /></Link>
       </NavbarGroup>
+      <NavbarGroup align={Alignment.RIGHT}>
+        <a href="https://github.com/samarthdave/blueprint_showcase" className="pt-button pt-minimal pt-icon-git-repo"></a>
+      </NavbarGroup>
     </Navbar>
   );
 }
