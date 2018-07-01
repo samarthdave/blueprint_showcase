@@ -23,6 +23,11 @@ body {
   text-align: left;
   border-radius: 5px;
 }
+.transparent.jumbotron {
+  background: transparent;
+  text-align: center;
+  padding: 2em;
+}
 
 h1.header {
   font-size: 5em;
@@ -62,4 +67,28 @@ h1.header {
 /* progress bar showcase  */
 .progress-bar-showcase .pt-callout {
   max-width: 70%;
+}
+
+
+
+/* flexbox code */
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: auto;
+}
+
+.flex-card {
+
 }

@@ -42,7 +42,8 @@ function Navigation() {
       <NavbarGroup align={Alignment.LEFT}>
         <NavbarHeading>Blueprint Showcase</NavbarHeading>
         <NavbarDivider />
-        <Link to='/showcase/bootstrap'><Button className="pt-minimal" icon="home" text="Bootstrap Layout" /></Link>
+        <Link to='/showcase/'><Button className="pt-minimal" icon="home" text="Sign-in Page" /></Link>
+        <Link to='/showcase/bootstrap'><Button className="pt-minimal" icon="bold" text="Bootstrap Layout" /></Link>
       </NavbarGroup>
     </Navbar>
   );
