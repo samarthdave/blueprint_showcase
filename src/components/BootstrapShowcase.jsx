@@ -107,19 +107,19 @@ function NavbarShowcase() {
         <NavbarGroup align={Alignment.LEFT}>
           <NavbarHeading>Project Name</NavbarHeading>
           <NavbarDivider />
-          <Button className="pt-minimal" icon="home" text="Home" />
-          <Button className="pt-minimal" icon="document" text="Files" />
+          <Button className="bp3-minimal" icon="home" text="Home" />
+          <Button className="bp3-minimal" icon="document" text="Files" />
         </NavbarGroup>
       </Navbar>
       <br/>
-      <Navbar className="pt-dark">
+      <Navbar className="bp3-dark">
         <NavbarGroup>
           <NavbarHeading>Project Name</NavbarHeading>
-          <input class="pt-input" placeholder="Search files..." type="text" />
+          <input class="bp3-input" placeholder="Search files..." type="text" />
         </NavbarGroup>
         <NavbarGroup align={Alignment.RIGHT}>
-          <Button className="pt-minimal" icon="home" text="Home" />
-          <Button className="pt-minimal" icon="document" text="Files" />
+          <Button className="bp3-minimal" icon="home" text="Home" />
+          <Button className="bp3-minimal" icon="document" text="Files" />
         </NavbarGroup>
       </Navbar>
       <br/>

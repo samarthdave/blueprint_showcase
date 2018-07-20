@@ -31,6 +31,7 @@ body {
 
 h1.header {
   font-size: 5em;
+  margin: 0;
 }
 
 .jumbotron p {
@@ -43,12 +44,12 @@ h1.header {
 }
 
 /* alerts showcase */
-.alerts-showcase .pt-callout {
+.alerts-showcase .bp3-callout {
   max-width: 70%;
 }
 
 /* navbar paddings */
-.pt-navbar {
+.bp3-navbar {
   padding: 0 100px;
 }
 
@@ -60,17 +61,17 @@ h1.header {
   -webkit-box-direction: normal;
 
 }
-.thumbnail-showcase .pt-card {
+.thumbnail-showcase .bp3-card {
   max-width: 400px;
 }
 
 /* labels showcase */
-.labels-showcase .pt-tag {
+.labels-showcase .bp3-tag {
   margin: 2px;
 }
 
 /* progress bar showcase  */
-.progress-bar-showcase .pt-callout {
+.progress-bar-showcase .bp3-callout {
   max-width: 70%;
 }
 

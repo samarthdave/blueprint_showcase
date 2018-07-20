@@ -38,15 +38,15 @@ function Main() {
 
 function Navigation() {
   return (
-    <Navbar className='pt-dark'>
+    <Navbar className='bp3-dark'>
       <NavbarGroup align={Alignment.LEFT}>
         <NavbarHeading>Blueprint Showcase (unofficial)</NavbarHeading>
         <NavbarDivider />
-        <Link to='/showcase/bootstrap'><Button className="pt-minimal" icon="bold" text="Bootstrap Layout" /></Link>
-        <Link to='/showcase/'><Button className="pt-minimal" icon="home" text="Sign-in Page" /></Link>
+        <Link to='/showcase/bootstrap'><Button className="bp3-minimal" icon="bold" text="Bootstrap Layout" /></Link>
+        <Link to='/showcase/'><Button className="bp3-minimal" icon="home" text="Sign-in Page" /></Link>
       </NavbarGroup>
       <NavbarGroup align={Alignment.RIGHT}>
-        <a href="https://github.com/samarthdave/blueprint_showcase" className="pt-button pt-minimal pt-icon-git-repo"></a>
+        <a href="https://github.com/samarthdave/blueprint_showcase" className="bp3-button bp3-minimal bp3-icon-git-repo"></a>
       </NavbarGroup>
     </Navbar>
   );
